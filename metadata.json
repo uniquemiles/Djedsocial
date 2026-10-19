@@ -1,0 +1,6 @@
+{
+  "name": "DJED Social Platform",
+  "description": "DJED is a unified, bronze-crafted social platform combining WhatsApp-style messaging, Twitter/X-style discovery, and Facebook-style feeds, communities, and profiles.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,82 @@
+# DJED Platform - Render Deployment Specification
+# Environments: Production, Staging, Development
+# Multi-service blueprint: Web Full-Stack Service, Database Migration Job, Redis/Cache
+
+services:
+  # ----------------------------------------------------
+  # DJED Production Web Service (Node.js + WebSockets)
+  # ----------------------------------------------------
+  - type: web
+    name: djed-production
+    runtime: node
+    plan: standard
+    region: frankfurt
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/v1/health
+    autoDeploy: false
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: APP_ENV
+        value: production
+      - key: PORT
+        value: 3000
+      - key: APP_ORIGIN
+        sync: false
+      - key: DATABASE_URL
+        sync: false # Protected Neon production branch URL
+      - key: SESSION_SECRET
+        generateValue: true
+      - key: OBJECT_STORAGE_ENDPOINT
+        sync: false
+      - key: OBJECT_STORAGE_REGION
+        sync: false
+      - key: OBJECT_STORAGE_BUCKET
+        sync: false
+      - key: OBJECT_STORAGE_ACCESS_KEY_ID
+        sync: false
+      - key: OBJECT_STORAGE_SECRET_ACCESS_KEY
+        sync: false
+      - key: LOG_LEVEL
+        value: info
+
+  # ----------------------------------------------------
+  # DJED Staging Web Service (Pre-release testing)
+  # ----------------------------------------------------
+  - type: web
+    name: djed-staging
+    runtime: node
+    plan: starter
+    region: frankfurt
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/v1/health
+    autoDeploy: true
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: APP_ENV
+        value: staging
+      - key: PORT
+        value: 3000
+      - key: DATABASE_URL
+        sync: false # Isolated Neon staging branch URL
+      - key: SESSION_SECRET
+        generateValue: true
+      - key: LOG_LEVEL
+        value: debug
+
+  # ----------------------------------------------------
+  # Database Migration Job (One-off or pre-deploy)
+  # ----------------------------------------------------
+  - type: job
+    name: djed-db-migrate-production
+    runtime: node
+    plan: starter
+    region: frankfurt
+    buildCommand: npm install
+    startCommand: npx drizzle-kit migrate
+    envVars:
+      - key: DATABASE_URL
+        sync: false

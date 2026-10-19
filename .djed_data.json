@@ -1,0 +1,590 @@
+{
+  "users": [
+    {
+      "id": "usr_imhotep_001",
+      "username": "imhotep",
+      "email": "imhotep@djed.network",
+      "passwordHash": "a1b2c3d4e5f60718:fcf15c171b3e83f7f0341cfa3d6a5b3e3466438ac33c9dc7b3675acfcd748b58be9b0ee10d3e01e8b6cf0c58af4f6f2f4315220818628b418f83afe96f91349d",
+      "displayName": "Imhotep the Architect",
+      "bio": "Master of stonework, early mathematics, and monumental architecture. Stability in form and mind.",
+      "avatarUrl": "https://images.unsplash.com/photo-1544717305-2782549b5136?w=240&auto=format&fit=crop&q=80",
+      "coverUrl": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=1200&auto=format&fit=crop&q=80",
+      "role": "admin",
+      "isPrivate": false,
+      "isVerified": true,
+      "website": "https://djed.network/imhotep",
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "followersCount": 1420,
+      "followingCount": 42,
+      "postsCount": 4
+    },
+    {
+      "id": "usr_hypatia_002",
+      "username": "hypatia",
+      "email": "hypatia@djed.network",
+      "passwordHash": "a1b2c3d4e5f60718:fcf15c171b3e83f7f0341cfa3d6a5b3e3466438ac33c9dc7b3675acfcd748b58be9b0ee10d3e01e8b6cf0c58af4f6f2f4315220818628b418f83afe96f91349d",
+      "displayName": "Hypatia of Alexandria",
+      "bio": "Mathematician, astronomer, neo-Platonist teacher. Seeking the geometric truths underpinning human society.",
+      "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=240&auto=format&fit=crop&q=80",
+      "coverUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=1200&auto=format&fit=crop&q=80",
+      "role": "moderator",
+      "isPrivate": false,
+      "isVerified": true,
+      "website": "https://djed.network/hypatia",
+      "createdAt": "2026-01-02T00:00:00.000Z",
+      "followersCount": 890,
+      "followingCount": 18,
+      "postsCount": 2
+    },
+    {
+      "id": "usr_tariq_003",
+      "username": "tariq_metals",
+      "email": "tariq@djed.network",
+      "passwordHash": "a1b2c3d4e5f60718:fcf15c171b3e83f7f0341cfa3d6a5b3e3466438ac33c9dc7b3675acfcd748b58be9b0ee10d3e01e8b6cf0c58af4f6f2f4315220818628b418f83afe96f91349d",
+      "displayName": "Tariq Al-Mansoor",
+      "bio": "Bronze casting specialist & metallurgy historian. Exploring lost wax casting & high-tensile alloys.",
+      "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=240&auto=format&fit=crop&q=80",
+      "role": "user",
+      "isPrivate": false,
+      "isVerified": false,
+      "createdAt": "2026-01-10T00:00:00.000Z",
+      "followersCount": 340,
+      "followingCount": 65,
+      "postsCount": 2
+    },
+    {
+      "id": "usr_amira_004",
+      "username": "amira_cairo",
+      "email": "amira@djed.network",
+      "passwordHash": "a1b2c3d4e5f60718:fcf15c171b3e83f7f0341cfa3d6a5b3e3466438ac33c9dc7b3675acfcd748b58be9b0ee10d3e01e8b6cf0c58af4f6f2f4315220818628b418f83afe96f91349d",
+      "displayName": "Amira Vance",
+      "bio": "Distributed systems engineer in New Cairo. Building permanent infrastructure that outlasts the century.",
+      "avatarUrl": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=240&auto=format&fit=crop&q=80",
+      "role": "user",
+      "isPrivate": false,
+      "isVerified": true,
+      "createdAt": "2026-01-15T00:00:00.000Z",
+      "followersCount": 612,
+      "followingCount": 110,
+      "postsCount": 2
+    },
+    {
+      "id": "usr_9540afe3",
+      "username": "test_blocker_1792408664170",
+      "email": "blocker_1792408664170@test.com",
+      "passwordHash": "9ce17c060c9c01b20c71494beed0a86f:20c1e00a946e19f5695a460684ea672a7b0a069a621e76f3a9d8702ab81bd50491432ea26341a92f275a66a2ce508bcf6ce1ab2ba8eaa15aa7748aa3d1731995",
+      "displayName": "Blocker User",
+      "bio": "",
+      "avatarUrl": "https://api.dicebear.com/7.x/shapes/svg?seed=test_blocker_1792408664170",
+      "role": "user",
+      "isPrivate": false,
+      "isVerified": false,
+      "createdAt": "2026-10-19T11:17:44.234Z",
+      "followersCount": 0,
+      "followingCount": 0,
+      "postsCount": 0
+    },
+    {
+      "id": "usr_83e337ba",
+      "username": "test_blocked_1792408664235",
+      "email": "blocked_1792408664235@test.com",
+      "passwordHash": "4302c43dea4ee9e04e1825a5104848fb:6c13818774354fc5f70b185f62ecc37a6dc0abe54d3e93104ca5ddb3363f4a7cc3a67a48896de851b2df7436c61d1c81e745ddf286bf74384f086ea7460969cd",
+      "displayName": "Blocked User",
+      "bio": "",
+      "avatarUrl": "https://api.dicebear.com/7.x/shapes/svg?seed=test_blocked_1792408664235",
+      "role": "user",
+      "isPrivate": false,
+      "isVerified": false,
+      "createdAt": "2026-10-19T11:17:44.299Z",
+      "followersCount": 0,
+      "followingCount": 0,
+      "postsCount": 1
+    },
+    {
+      "id": "usr_597c276d",
+      "username": "outsider_1792408664301",
+      "email": "outsider_1792408664301@test.com",
+      "passwordHash": "c734b92b2157b9dbd603cc5739c1f4ba:285e3e7fc843061293c74af437ab2f495d04972d31b599d569a129e0f4fdfe0ddcbf89150614f4fb9b09a8ac74950b37d310bb5ce6abb9d6be4256075f6f3f0e",
+      "displayName": "Outsider User",
+      "bio": "",
+      "avatarUrl": "https://api.dicebear.com/7.x/shapes/svg?seed=outsider_1792408664301",
+      "role": "user",
+      "isPrivate": false,
+      "isVerified": false,
+      "createdAt": "2026-10-19T11:17:44.360Z",
+      "followersCount": 0,
+      "followingCount": 0,
+      "postsCount": 0
+    }
+  ],
+  "sessions": [],
+  "posts": [
+    {
+      "id": "post_d082c3c1",
+      "authorId": "usr_83e337ba",
+      "author": {
+        "id": "usr_83e337ba",
+        "username": "test_blocked_1792408664235",
+        "displayName": "Blocked User",
+        "avatarUrl": "https://api.dicebear.com/7.x/shapes/svg?seed=test_blocked_1792408664235",
+        "role": "user",
+        "isVerified": false
+      },
+      "content": "This post should be hidden from blocker",
+      "reactions": {},
+      "repliesCount": 0,
+      "repostsCount": 0,
+      "createdAt": "2026-10-19T11:17:44.299Z"
+    },
+    {
+      "id": "post_fa98335c",
+      "authorId": "usr_imhotep_001",
+      "author": {
+        "id": "usr_imhotep_001",
+        "username": "imhotep",
+        "displayName": "Imhotep the Architect",
+        "avatarUrl": "https://images.unsplash.com/photo-1544717305-2782549b5136?w=240&auto=format&fit=crop&q=80",
+        "role": "admin",
+        "isVerified": true
+      },
+      "content": "Testing monumental statics #Architecture #Permanence",
+      "reactions": {},
+      "repliesCount": 0,
+      "repostsCount": 0,
+      "createdAt": "2026-10-19T11:17:44.167Z"
+    },
+    {
+      "id": "post_004",
+      "authorId": "usr_amira_004",
+      "author": {
+        "id": "usr_amira_004",
+        "username": "amira_cairo",
+        "displayName": "Amira Vance",
+        "avatarUrl": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=240&auto=format&fit=crop&q=80",
+        "role": "user",
+        "isVerified": true
+      },
+      "content": "Modern distributed architectures often chase ephemeral complexity. Real resilience comes from clear boundaries, predictable state machines, and reliable datastores. Building DJED with full PostgreSQL integrity and real-time sockets is like laying dry-stone joints: clean and durable.",
+      "reactions": {
+        "djed": 33,
+        "like": 44
+      },
+      "repliesCount": 1,
+      "repostsCount": 7,
+      "createdAt": "2026-02-04T16:20:00.000Z"
+    },
+    {
+      "id": "post_003",
+      "authorId": "usr_tariq_003",
+      "author": {
+        "id": "usr_tariq_003",
+        "username": "tariq_metals",
+        "displayName": "Tariq Al-Mansoor",
+        "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=240&auto=format&fit=crop&q=80",
+        "role": "user"
+      },
+      "content": "Finished a ceremonial bronze pour this morning with 88% copper and 12% tin. The oxidation finish displays a deep, burnished patina under sunlight. Bronze does not rot like iron or crumble like stone; it holds form across thousands of years.",
+      "media": [
+        {
+          "id": "media_002",
+          "url": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=800&auto=format&fit=crop&q=80",
+          "mimeType": "image/jpeg",
+          "caption": "Molten bronze casting and lustrous patination."
+        }
+      ],
+      "communityId": "comm_bronze_02",
+      "communityName": "Bronze Guild & Artisanry",
+      "reactions": {
+        "flame": 41,
+        "like": 52,
+        "djed": 15
+      },
+      "repliesCount": 1,
+      "repostsCount": 5,
+      "createdAt": "2026-02-03T09:45:00.000Z"
+    },
+    {
+      "id": "post_002",
+      "authorId": "usr_hypatia_002",
+      "author": {
+        "id": "usr_hypatia_002",
+        "username": "hypatia",
+        "displayName": "Hypatia of Alexandria",
+        "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=240&auto=format&fit=crop&q=80",
+        "role": "moderator",
+        "isVerified": true
+      },
+      "content": "Reserve your right to think, for even to think wrongly is better than not to think at all. In an era where information spreads at the speed of light, clarity of thought and mathematical rigor remain our rarest alloy. #Philosophy #Alexandria #Truth",
+      "reactions": {
+        "eye_of_horus": 36,
+        "djed": 28,
+        "like": 85
+      },
+      "repliesCount": 2,
+      "repostsCount": 9,
+      "createdAt": "2026-02-02T14:15:00.000Z"
+    },
+    {
+      "id": "post_001",
+      "authorId": "usr_imhotep_001",
+      "author": {
+        "id": "usr_imhotep_001",
+        "username": "imhotep",
+        "displayName": "Imhotep the Architect",
+        "avatarUrl": "https://images.unsplash.com/photo-1544717305-2782549b5136?w=240&auto=format&fit=crop&q=80",
+        "role": "admin",
+        "isVerified": true
+      },
+      "content": "True stability is not rigidity; it is the deliberate distribution of load. The Djed pillar represents the spine of Osiris — vertical strength rooted deep into bedrock, capable of bearing weight through centuries of tempest and change.\n\nToday we inaugurate this digital platform upon those exact geometric principles.",
+      "media": [
+        {
+          "id": "media_001",
+          "url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=800&auto=format&fit=crop&q=80",
+          "mimeType": "image/jpeg",
+          "caption": "Foundation stones designed for eternal equilibrium."
+        }
+      ],
+      "communityId": "comm_arch_01",
+      "communityName": "Monumental Architecture & Statics",
+      "reactions": {
+        "djed": 48,
+        "flame": 22,
+        "ankh": 19,
+        "like": 64
+      },
+      "repliesCount": 3,
+      "repostsCount": 14,
+      "createdAt": "2026-02-01T10:30:00.000Z"
+    }
+  ],
+  "comments": [
+    {
+      "id": "comm_post1_01",
+      "postId": "post_001",
+      "authorId": "usr_hypatia_002",
+      "author": {
+        "id": "usr_hypatia_002",
+        "username": "hypatia",
+        "displayName": "Hypatia of Alexandria",
+        "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=240&auto=format&fit=crop&q=80"
+      },
+      "content": "The vertical alignment of the pillar mirrors the celestial axis. Architecture is merely geometry solidified into stone.",
+      "reactionsCount": 12,
+      "createdAt": "2026-02-01T11:00:00.000Z"
+    },
+    {
+      "id": "comm_post1_02",
+      "postId": "post_001",
+      "authorId": "usr_amira_004",
+      "author": {
+        "id": "usr_amira_004",
+        "username": "amira_cairo",
+        "displayName": "Amira Vance",
+        "avatarUrl": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=240&auto=format&fit=crop&q=80"
+      },
+      "content": "Agreed. The same applies to data integrity — foreign keys and strict schemas protect the architecture against human entropy.",
+      "reactionsCount": 8,
+      "createdAt": "2026-02-01T11:45:00.000Z"
+    }
+  ],
+  "reactions": [],
+  "follows": [
+    {
+      "followerId": "usr_hypatia_002",
+      "followingId": "usr_imhotep_001",
+      "createdAt": "2026-01-03T00:00:00.000Z"
+    },
+    {
+      "followerId": "usr_tariq_003",
+      "followingId": "usr_imhotep_001",
+      "createdAt": "2026-01-11T00:00:00.000Z"
+    },
+    {
+      "followerId": "usr_amira_004",
+      "followingId": "usr_imhotep_001",
+      "createdAt": "2026-01-16T00:00:00.000Z"
+    },
+    {
+      "followerId": "usr_amira_004",
+      "followingId": "usr_hypatia_002",
+      "createdAt": "2026-01-17T00:00:00.000Z"
+    }
+  ],
+  "blocks": [
+    {
+      "blockerId": "usr_9540afe3",
+      "blockedId": "usr_83e337ba",
+      "createdAt": "2026-10-19T11:17:44.300Z"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_b9d9820e",
+      "isGroup": true,
+      "title": "Secret Blueprint Chamber",
+      "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=Secret%20Blueprint%20Chamber",
+      "members": [
+        {
+          "userId": "usr_imhotep_001",
+          "username": "imhotep",
+          "displayName": "Imhotep the Architect",
+          "avatarUrl": "https://images.unsplash.com/photo-1544717305-2782549b5136?w=240&auto=format&fit=crop&q=80",
+          "role": "admin",
+          "joinedAt": "2026-10-19T11:17:44.361Z"
+        },
+        {
+          "userId": "usr_hypatia_002",
+          "username": "hypatia",
+          "displayName": "Hypatia of Alexandria",
+          "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=240&auto=format&fit=crop&q=80",
+          "role": "member",
+          "joinedAt": "2026-10-19T11:17:44.361Z"
+        }
+      ],
+      "unreadCount": 0,
+      "updatedAt": "2026-10-19T11:17:44.361Z"
+    },
+    {
+      "id": "conv_group_council",
+      "isGroup": true,
+      "title": "Djed Council of Builders",
+      "avatarUrl": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=240&auto=format&fit=crop&q=80",
+      "members": [
+        {
+          "userId": "usr_imhotep_001",
+          "username": "imhotep",
+          "displayName": "Imhotep the Architect",
+          "avatarUrl": "https://images.unsplash.com/photo-1544717305-2782549b5136?w=240&auto=format&fit=crop&q=80",
+          "role": "admin",
+          "joinedAt": "2026-01-01T00:00:00.000Z"
+        },
+        {
+          "userId": "usr_hypatia_002",
+          "username": "hypatia",
+          "displayName": "Hypatia of Alexandria",
+          "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=240&auto=format&fit=crop&q=80",
+          "role": "member",
+          "joinedAt": "2026-01-02T00:00:00.000Z"
+        },
+        {
+          "userId": "usr_amira_004",
+          "username": "amira_cairo",
+          "displayName": "Amira Vance",
+          "avatarUrl": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=240&auto=format&fit=crop&q=80",
+          "role": "member",
+          "joinedAt": "2026-01-15T00:00:00.000Z"
+        }
+      ],
+      "lastMessage": {
+        "id": "msg_003",
+        "senderId": "usr_amira_004",
+        "senderName": "Amira Vance",
+        "content": "WebSocket latency is sub-20ms across test nodes. Ready for real-time chatter.",
+        "createdAt": "2026-02-04T17:00:00.000Z"
+      },
+      "unreadCount": 0,
+      "updatedAt": "2026-02-04T17:00:00.000Z"
+    },
+    {
+      "id": "conv_direct_imhotep_hypatia",
+      "isGroup": false,
+      "members": [
+        {
+          "userId": "usr_imhotep_001",
+          "username": "imhotep",
+          "displayName": "Imhotep the Architect",
+          "avatarUrl": "https://images.unsplash.com/photo-1544717305-2782549b5136?w=240&auto=format&fit=crop&q=80",
+          "role": "member",
+          "joinedAt": "2026-01-02T00:00:00.000Z"
+        },
+        {
+          "userId": "usr_hypatia_002",
+          "username": "hypatia",
+          "displayName": "Hypatia of Alexandria",
+          "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=240&auto=format&fit=crop&q=80",
+          "role": "member",
+          "joinedAt": "2026-01-02T00:00:00.000Z"
+        }
+      ],
+      "lastMessage": {
+        "id": "msg_004",
+        "senderId": "usr_hypatia_002",
+        "senderName": "Hypatia of Alexandria",
+        "content": "I have calculated the celestial angle for the southern equinox alignment.",
+        "createdAt": "2026-02-03T18:30:00.000Z"
+      },
+      "unreadCount": 0,
+      "updatedAt": "2026-02-03T18:30:00.000Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg_001",
+      "conversationId": "conv_group_council",
+      "senderId": "usr_imhotep_001",
+      "sender": {
+        "id": "usr_imhotep_001",
+        "username": "imhotep",
+        "displayName": "Imhotep the Architect",
+        "avatarUrl": "https://images.unsplash.com/photo-1544717305-2782549b5136?w=240&auto=format&fit=crop&q=80"
+      },
+      "content": "Welcome to the inner council. Let us coordinate the launch of the Djed network.",
+      "readBy": [
+        "usr_imhotep_001",
+        "usr_hypatia_002",
+        "usr_amira_004"
+      ],
+      "createdAt": "2026-02-04T16:30:00.000Z"
+    },
+    {
+      "id": "msg_002",
+      "conversationId": "conv_group_council",
+      "senderId": "usr_hypatia_002",
+      "sender": {
+        "id": "usr_hypatia_002",
+        "username": "hypatia",
+        "displayName": "Hypatia of Alexandria",
+        "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=240&auto=format&fit=crop&q=80"
+      },
+      "content": "The cryptographic hashes and proof-of-authenticity mechanisms look solid.",
+      "readBy": [
+        "usr_imhotep_001",
+        "usr_hypatia_002",
+        "usr_amira_004"
+      ],
+      "createdAt": "2026-02-04T16:45:00.000Z"
+    },
+    {
+      "id": "msg_003",
+      "conversationId": "conv_group_council",
+      "senderId": "usr_amira_004",
+      "sender": {
+        "id": "usr_amira_004",
+        "username": "amira_cairo",
+        "displayName": "Amira Vance",
+        "avatarUrl": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=240&auto=format&fit=crop&q=80"
+      },
+      "content": "WebSocket latency is sub-20ms across test nodes. Ready for real-time chatter.",
+      "readBy": [
+        "usr_imhotep_001",
+        "usr_hypatia_002",
+        "usr_amira_004"
+      ],
+      "createdAt": "2026-02-04T17:00:00.000Z"
+    },
+    {
+      "id": "msg_004",
+      "conversationId": "conv_direct_imhotep_hypatia",
+      "senderId": "usr_hypatia_002",
+      "sender": {
+        "id": "usr_hypatia_002",
+        "username": "hypatia",
+        "displayName": "Hypatia of Alexandria",
+        "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=240&auto=format&fit=crop&q=80"
+      },
+      "content": "I have calculated the celestial angle for the southern equinox alignment.",
+      "readBy": [
+        "usr_imhotep_001",
+        "usr_hypatia_002"
+      ],
+      "createdAt": "2026-02-03T18:30:00.000Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif_001",
+      "userId": "usr_imhotep_001",
+      "actorId": "usr_hypatia_002",
+      "actor": {
+        "id": "usr_hypatia_002",
+        "username": "hypatia",
+        "displayName": "Hypatia of Alexandria",
+        "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=240&auto=format&fit=crop&q=80"
+      },
+      "type": "reaction",
+      "targetId": "post_001",
+      "contentSummary": "reacted with Ankh to your post",
+      "isRead": false,
+      "createdAt": "2026-02-01T11:05:00.000Z"
+    },
+    {
+      "id": "notif_002",
+      "userId": "usr_imhotep_001",
+      "actorId": "usr_amira_004",
+      "actor": {
+        "id": "usr_amira_004",
+        "username": "amira_cairo",
+        "displayName": "Amira Vance",
+        "avatarUrl": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=240&auto=format&fit=crop&q=80"
+      },
+      "type": "comment",
+      "targetId": "post_001",
+      "contentSummary": "commented on your post: \"Agreed. The same applies to data integrity...\"",
+      "isRead": false,
+      "createdAt": "2026-02-01T11:45:00.000Z"
+    }
+  ],
+  "communities": [
+    {
+      "id": "comm_arch_01",
+      "name": "Monumental Architecture & Statics",
+      "slug": "monumental-architecture",
+      "description": "Discussing civilizational engineering, column math, stone foundations, and structures built to span millennia.",
+      "avatarUrl": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=240&auto=format&fit=crop&q=80",
+      "isPrivate": false,
+      "creatorId": "usr_imhotep_001",
+      "membersCount": 4,
+      "postsCount": 2,
+      "createdAt": "2026-01-05T00:00:00.000Z"
+    },
+    {
+      "id": "comm_bronze_02",
+      "name": "Bronze Guild & Artisanry",
+      "slug": "bronze-guild",
+      "description": "The chemistry, patination, and artistic mastery of copper-tin bronzes from antiquity to present.",
+      "avatarUrl": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=240&auto=format&fit=crop&q=80",
+      "isPrivate": false,
+      "creatorId": "usr_tariq_003",
+      "membersCount": 3,
+      "postsCount": 2,
+      "createdAt": "2026-01-08T00:00:00.000Z"
+    },
+    {
+      "id": "comm_alexandria_03",
+      "name": "Alexandria Mathematics & Logic",
+      "slug": "alexandria-logic",
+      "description": "Geometry, celestial navigation, and logical philosophy for modern digital builders.",
+      "avatarUrl": "https://images.unsplash.com/photo-1507668077129-56e32842fceb?w=240&auto=format&fit=crop&q=80",
+      "isPrivate": false,
+      "creatorId": "usr_hypatia_002",
+      "membersCount": 4,
+      "postsCount": 1,
+      "createdAt": "2026-01-12T00:00:00.000Z"
+    }
+  ],
+  "reports": [
+    {
+      "id": "rep_4867e9e8",
+      "reporterId": "usr_imhotep_001",
+      "reporterName": "Imhotep the Architect",
+      "targetType": "post",
+      "targetId": "post_001",
+      "reason": "Testing moderation pipeline",
+      "details": "Audit verification",
+      "status": "resolved",
+      "createdAt": "2026-10-19T11:17:44.365Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "audit_d3159600",
+      "adminId": "usr_imhotep_001",
+      "adminUsername": "imhotep",
+      "action": "REPORT_RESOLVED",
+      "targetType": "post",
+      "targetId": "post_001",
+      "details": "Report rep_4867e9e8 marked as resolved by @imhotep",
+      "timestamp": "2026-10-19T11:17:44.365Z"
+    }
+  ]
+}
